@@ -27,6 +27,13 @@ function Game({verifyLetter}) {
           <button>Jogar!</button>
         </form>
      </div>
+
+     <div className='wrongLettersConatiner'>
+        <p>Letras já utilizadas:</p>
+        <span>a,</span>
+        <span>b,</span>
+        <span>c,</span>
+     </div>
     </div>
   )
 }
