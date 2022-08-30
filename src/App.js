@@ -123,7 +123,7 @@ function App() {
     <div className="App">
        {gameStage === "start" &&   <StartScreen startGame={startGame} /> }
        {gameStage === "game" &&   <Game verifyLetter={verifyLetter}  pickerWord={pickerWord} pickerCategory={pickerCategory} letters={letters} guessedLetters={guessedLetters} wrongLetters={wrongLetters} guesses={guesses} score={score} /> }
-       {gameStage === "end" &&   <GameOver retry={retry} /> }
+       {gameStage === "end" &&   <GameOver retry={retry} score={score} /> }
     </div>
   );
 }
