@@ -54,7 +54,7 @@ function Game(
      </div>
 
      <div className='wrongLettersConatiner'>
-        <p>Letras já utilizadas:</p>
+        <p>Letras já utilizadas.</p>
         {wrongLetters.map((letter, i) => (
           <span key={i} >{letter}, </span>
         ))}
